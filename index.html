@@ -3,7 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shine Smile</title>
+    <title>Hson Resort</title>
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,6 +93,203 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <h1>HELLO</h1>
+    <div class="header-fixed fixed">
+      <div class="container">
+        <div class="header-top">
+          <!-- Logo -->
+          <a href="#!">
+            <div class="logo">
+              <span class="logo__circle"></span>
+              <span class="logo__text">
+                <span class="logo__brand">HSON</span>
+                <span class="logo__brand logo__brand--small">resort</span>
+              </span>
+            </div>
+          </a>
+          <!-- Navbar -->
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link navbar__link--active"
+                  >Trang Chủ</a
+                >
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Phòng</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Biệt Thự</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Dịch Vụ</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Btn -->
+          <div class="header-action">
+            <a href="#!" class="header-action__login">Đăng Ký</a>
+            <a href="#!" class="btn header-action__signup">Đăng Nhập</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="container">
+        <!-- Hero -->
+        <section class="hero">
+          <!-- Hero Content -->
+          <section class="hero__content">
+            <h1 class="hero__heading">Chào Mừng Đến Với Hson Resort</h1>
+            <p class="hero__desc">
+              Trải dài bên bãi biển Đà Nẵng xinh đẹp, HSON Resort đem đến cho du
+              khách những trải nghiệm tuyệt vời.
+            </p>
+            <div class="hero__row">
+              <a href="!#" class="btn">Khám Phá Ngay</a>
+              <span class="hero__phone">Phone : 097 987 1976</span>
+            </div>
+          </section>
+          <!-- Hero Media -->
+          <div class="hero__media">
+            <figure class="hero__images">
+              <img
+                src="./assets/img/Hinh1.avif"
+                alt="hinh1"
+                class="hero__img"
+              />
+              <img
+                src="./assets/img/Hinh2.avif"
+                alt="hinh2"
+                class="hero__img"
+              />
+            </figure>
+          </div>
+        </section>
+      </div>
+    </header>
+    <main>
+      <!-- Service -->
+      <section class="service">
+        <div class="container">
+          <h2 class="service__heading section-heading">Các Dịch Vụ</h2>
+          <p class="service__desc section-desc">
+            Cùng nhau trải nghiệm thú vị không thể bỏ lỡ với tất cả các dịch vụ
+            tại Hson Resort
+          </p>
+          <div class="service__row">
+            <figure class="service__images">
+              <img
+                src="./assets/img/Dv.avif"
+                alt="Anh DV"
+                class="service__img"
+              />
+            </figure>
+            <div>
+              <div class="service__list">
+                <section class="service__item">
+                  <div class="service-item__icon-wrap">
+                    <span class="service-item__icon"></span>
+                  </div>
+                  <div class="service-item__body">
+                    <h3 class="service-item__heading">
+                      Thư giãn cùng Hson Spa
+                    </h3>
+                    <p class="service-item__desc">
+                      Hson Spa là spa được lấy cảm hứng từ vẻ đẹp kinh điển của
+                      Ngọc trai Akoya
+                    </p>
+                  </div>
+                </section>
+                <!-- Item 2 -->
+                <section class="service__item">
+                  <div class="service-item__icon-wrap">
+                    <span class="service-item__icon"></span>
+                  </div>
+                  <div class="service-item__body">
+                    <h3 class="service-item__heading">
+                      Thưởng thức đại tiệc Buffet
+                    </h3>
+                    <p class="service-item__desc">
+                      Ẩm thực luôn là một phần không thể thiếu trong mỗi chuyến
+                      đi
+                    </p>
+                  </div>
+                </section>
+                <!-- Item 3 -->
+                <section class="service__item">
+                  <div class="service-item__icon-wrap">
+                    <span class="service-item__icon"></span>
+                  </div>
+                  <div class="service-item__body">
+                    <h3 class="service-item__heading">
+                      Rèn luyện cùng các lớp yoga, gym
+                    </h3>
+                    <p class="service-item__desc">
+                      Các phòng tập yoga, gym tại Hson Resort đều được trang bị
+                      những thiết bị hiện đại
+                    </p>
+                  </div>
+                </section>
+              </div>
+              <a href="#!" class="btn">Tất Cả Dịch Vụ</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Work -->
+      <section class="work">
+        <div class="container">
+          <h2 class="section-heading">Tìm Kiếm Của Bạn</h2>
+          <p class="section-desc work__desc">
+            Tìm Kiếm Dịch Vụ , Phòng , Biệt Thự theo sở thích của bạn để trãi
+            nghiệm tuyệt vời nhất
+          </p>
+          <div class="work__list">
+            <!-- Work Item 1 -->
+            <section class="work-item">
+              <img
+                src="./assets/icon/Orion_search.svg"
+                alt="Img Work"
+                class="work-item__icon"
+              />
+              <h3 class="work-item__heading">Tìm Kiếm Biệt Thự</h3>
+              <p class="work-item__desc">
+                Biệt Thự thiết kế đặt biệt không gian sinh hoạt chung rất thuận
+                tiện và ấm cúng
+              </p>
+              <a href="#!" class="work-item__more">Tìm Kiếm Thêm</a>
+            </section>
+            <!-- Work Item 2 -->
+            <section class="work-item">
+              <img
+                src="./assets/icon/Orion_search.svg"
+                alt="Img Work"
+                class="work-item__icon"
+              />
+              <h3 class="work-item__heading">Tìm Kiếm Phòng</h3>
+              <p class="work-item__desc">
+                Biệt Thự thiết kế đặt biệt không gian sinh hoạt chung rất thuận
+                tiện và ấm cúng
+              </p>
+              <a href="#!" class="work-item__more">Tìm Kiếm Thêm</a>
+            </section>
+            <!-- Work Item 3 -->
+            <section class="work-item">
+              <img
+                src="./assets/icon/Orion_search.svg"
+                alt="Img Work"
+                class="work-item__icon"
+              />
+              <h3 class="work-item__heading">Tìm Kiếm Dịch Vụ</h3>
+              <p class="work-item__desc">
+                Biệt Thự thiết kế đặt biệt không gian sinh hoạt chung rất thuận
+                tiện và ấm cúng
+              </p>
+              <a href="#!" class="work-item__more">Tìm Kiếm Thêm</a>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
